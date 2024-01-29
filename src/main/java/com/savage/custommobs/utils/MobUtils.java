@@ -29,6 +29,7 @@ public class MobUtils {
     public boolean isHostile(EntityType entity) {
         return Arrays.asList(hostileMobTypes).contains(entity);
     }
+
     public void createMob(Player player, String mobType, String mobName, double health, double damage) {
 
         //Initialize Variables
@@ -39,7 +40,7 @@ public class MobUtils {
         //Spawn Mob
         Entity mob = player.getWorld().spawnEntity(location, entityType);
 
-        if(mobName == null) {
+        if (mobName == null) {
             mob.setCustomName(mobType);
             mob.setCustomNameVisible(true);
         } else {
@@ -60,9 +61,6 @@ public class MobUtils {
 
 
     }
-
-
-
 
 
 }

@@ -1,6 +1,7 @@
 package com.savage.custommobs;
 
 import com.savage.custommobs.commands.MobSpawnCommand;
+import com.savage.custommobs.commands.tabCompleters.MobSpawnCommandCompleter;
 import com.savage.custommobs.utils.ColorUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -17,6 +18,7 @@ public final class CustomMobs extends JavaPlugin {
         // Plugin startup logic
         log.info(ChatColor.GREEN + "[CustomMobs]: Plugin Enabled!");
         getCommand("custommob").setExecutor(new MobSpawnCommand());
+        getCommand("custommob").setTabCompleter(new MobSpawnCommandCompleter());
     }
 
     @Override

@@ -14,6 +14,8 @@ public class MobSpawnCommand implements CommandExecutor {
 
     MobUtils mobUtils = new MobUtils();
 
+
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(command.getName().equalsIgnoreCase("custommob")) {
@@ -23,6 +25,7 @@ public class MobSpawnCommand implements CommandExecutor {
                 //Basic Checks
                 if (args.length < 4) {
                     player.sendMessage(ColorUtils.colorize("&c&lWrong Syntax! &cThe correct syntax is /custommob [type] [name] [health] [damage]!"));
+                    return true;
                 }
 
                 //Set Attribute Values
