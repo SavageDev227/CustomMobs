@@ -65,8 +65,8 @@ Contributions are welcome! If you have any ideas for improvements or new feature
 
 ## License
 
-This plugin is licensed under the [MIT License](link_to_license). See the `LICENSE` file for more details.
+This plugin is licensed under the GNU General Use 3.0 Liscense. See the `LICENSE` file for more details.
 
 ---
 
-*This project is maintained by SavageDev. Thank you for using the Custom Mob Plugin!*
+*This project is maintained by SavageDev. Thank you for using the CustomMobs Plugin!*
