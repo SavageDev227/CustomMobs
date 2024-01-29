@@ -4,7 +4,7 @@
 
 ## Overview
 
-The Custom Mob Plugin by SavageDev is a powerful tool for Minecraft server administrators to create custom mobs with unique health and damage attributes. With this plugin, you can enhance your server's gameplay by introducing customized mobs tailored to your server's theme or gameplay mechanics.
+CustomMobs by SavageDev is a powerful tool for Minecraft server administrators to create custom mobs with unique health and damage attributes. With this plugin, you can enhance your server's gameplay by introducing customized mobs tailored to your server's theme or gameplay mechanics.
 
 ## Features
 
