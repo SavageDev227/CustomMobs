@@ -55,12 +55,6 @@ Here are some examples of using the `/custommob` command:
   /custommob creeper SuperCreeper 100 20
   ```
 
-## Screenshots
-
-![Custom Mob Plugin Example 1](placeholder_image_url)
-![Custom Mob Plugin Example 2](placeholder_image_url)
-*Custom Mob Plugin in action: Creating a custom zombie.*
-
 ## Support
 
 For any issues or questions regarding the Custom Mob Plugin, feel free to open an issue on the [GitHub repository](link_to_repo_issues). We'll do our best to assist you!
